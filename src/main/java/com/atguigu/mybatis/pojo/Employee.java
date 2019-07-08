@@ -45,6 +45,7 @@ public class Employee {
 	}
 	@Override
 	public String toString() {
+		System.out.println("");
 		return "Employee [id=" + id + ", lastName=" + lastName + ", gender=" + gender + ", email=" + email + "]";
 	}
 	
